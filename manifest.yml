@@ -1,0 +1,5 @@
+applications:
+- name: dummy-service
+  path: target/dummy-service.jar
+  buildpack: java_buildpack
+  memory: 64M
