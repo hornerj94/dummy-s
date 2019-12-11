@@ -1,5 +1,6 @@
 applications:
-- name: dummy-service
-  path: target/dummy-service.jar
-  buildpack: java_buildpack
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: dummy-service
+  name: dummy-service
   memory: 64M
+  stack: cflinuxfs2
