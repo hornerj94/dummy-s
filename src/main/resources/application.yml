@@ -1,13 +1,10 @@
 # Spring properties
 spring:
   application:
-    name: dummy-service  # Identify this application
-
-# Map the error path to error template (for Thymeleaf)
-error.path: /error
+    name: auth-service  # Identify this application
 
 # HTTP Server
-server.port: 3333   # HTTP (Tomcat) port
+server.port: 4444   # HTTP (Tomcat) port
 
 eureka:
   client:

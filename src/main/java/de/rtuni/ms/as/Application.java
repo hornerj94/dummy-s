@@ -3,14 +3,14 @@
  * All Rights Reserved.
  */
 
-package de.rtuni.ms.ds;
+package de.rtuni.ms.as;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
- * Dummy service.
+ * Authentication service for microservice architecture.
  * 
  * @author Julian
  *
