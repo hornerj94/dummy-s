@@ -33,9 +33,9 @@ public class HomeController {
      * 
      * @return The name of the template
      */
-    @RequestMapping("/securePage")
-    public String securePage() {
-        return "securePage";
+    @RequestMapping("/securedPage")
+    public String securedPage() {
+        return "securedPage";
     }
 
     //---------------------------------------------------------------------------------------------
