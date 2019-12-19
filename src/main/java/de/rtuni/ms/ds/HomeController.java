@@ -38,5 +38,15 @@ public class HomeController {
         return "securedPage";
     }
 
+    /**
+     * Catches the request for the login page and returns the name of the corresponding template.
+     * 
+     * @return The name of the template
+     */
+    @RequestMapping("/login")
+    public String login() {
+        return "login";
+    }
+
     //---------------------------------------------------------------------------------------------
 }

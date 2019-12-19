@@ -18,7 +18,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableEurekaClient     
 public class Application {
-    //---------------------------------------------------------------------------------------------
+    //----------------------------------------------------------------------------------------------
     
     /**
      * Starts the application.
@@ -27,5 +27,5 @@ public class Application {
      */
     public static void main(final String[] args) { SpringApplication.run(Application.class, args); }
 
-    //---------------------------------------------------------------------------------------------
+    //----------------------------------------------------------------------------------------------
 }
