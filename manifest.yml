@@ -1,6 +1,0 @@
----
-applications:
-- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-  host: dummy-service
-  name: dummy-service
-  memory: 64M
