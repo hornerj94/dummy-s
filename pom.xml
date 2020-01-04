@@ -9,7 +9,7 @@
 	<packaging>war</packaging>
 
 	<name>dummy-service</name>
-	<description>Dummy service for microservice architecture</description>
+	<description>A dummy-service that manages some html documents</description>
 
 	<properties>
 		<java.version>1.8</java.version>
